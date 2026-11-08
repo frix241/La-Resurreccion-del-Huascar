@@ -21,7 +21,7 @@ jobs:
         id: suite
         run: |
           if test -f Tests/CoreChecks/CoreChecks.csproj; then echo "present=true" >> "$GITHUB_OUTPUT"; else echo "present=false" >> "$GITHUB_OUTPUT"; echo "CoreChecks pendiente de incorporar en issue #2; no se ejecutaron pruebas .NET." >> "$GITHUB_STEP_SUMMARY"; fi
-      - uses: actions/setup-dotnet@v4
+      - uses: actions/setup-dotnet@v6
         if: steps.suite.outputs.present == 'true'
         with:
           dotnet-version: 10.0.x

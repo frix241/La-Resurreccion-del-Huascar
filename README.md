@@ -32,7 +32,7 @@ Assets/_LRH/
   Tests/              Pruebas EditMode y PlayMode
 Tests/CoreChecks/     Comprobaciones .NET del núcleo
 Tools/                Validación del repositorio y generadores de recursos
-docs/                 Requisitos, arquitectura, pruebas y documentación técnica
+docs/                 Documentación técnica y de arte
 ```
 
 ## Abrir el proyecto
